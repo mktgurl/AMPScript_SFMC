@@ -22,7 +22,7 @@ Here's how the AMPScript looks like in the email body:
   set @email = AttributeValue("email") /* value from attribute or DE column in send context */ 
   set @template = AttributeValue("template") 
   set @numRowsToReturn = 0 /* 0 means all, max 2000 */ 
-  set @rows = LookupOrderedRows("DataExtensionName", @numRowsToReturn, "Email, ServStreet,ServCity, Atype, PSPSName, Template", "Email", @email, "Template", @template) 
+  set @rows = LookupOrderedRows("DataExtensionName", @numRowsToReturn, "Email, ServStreet,ServCity, Template", "Email", @email, "Template", @template) 
   set @rowCount = rowcount(@rows) set @rebatesum = 0 if @rowCount > 0 then 
 ]%%
 <ul>
