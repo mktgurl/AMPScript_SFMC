@@ -65,5 +65,5 @@ The html portion of the graph looks like this:
  
  And, the email preview cranks out like this:
  
- ![AmpScript Bar Chart](https://github.com/mktgurl/AMPScript_SFMC/compare/main...mktgurl-img?expand=1#diff-f6b46d272ab78d8e456ac11cd4a95bf5dce5529dad20254fe27b49dcc1c8e39a)
+ ![AmpScript Bar Chart](https://github.com/mktgurl/AMPScript_SFMC/blob/3e07f8f22b670c1695c2d3e4355b2d0464562f0a/AmpscriptBarChart.png)
 
