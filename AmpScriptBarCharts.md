@@ -63,7 +63,8 @@ The html portion of the graph looks like this:
             <span style="font-size:12px;">%%=v(@midoffpeakkwh)=%% kWh</span></td></tr></table></td></tr></table
  ...
  
- And, the email preview cranks out like this:
+And, the email preview cranks out like this:
  
  ![AmpScript Bar Chart](https://github.com/mktgurl/AMPScript_SFMC/blob/3e07f8f22b670c1695c2d3e4355b2d0464562f0a/AmpscriptBarChart.png)
 
+The bar portion of the chart is calculated off a percentage of electricity used, while the quantitative value to its right is the actual kwh used.
