@@ -1,3 +1,5 @@
+#salesforcemarketingcloud #sfmc #lookup #dataextension #lookuprows #formatlookup
+
 This is how to format a date when it's inserted into an email template using AMPScript but the data 
 is in a different data extension than the one the email uses in a journey automation.
 
