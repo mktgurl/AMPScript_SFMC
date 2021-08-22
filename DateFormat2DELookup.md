@@ -7,7 +7,7 @@ in each time an email template needs it.
 
 (top of email)
 
-...
+~~~
 %%[ 
 VAR @psps1, @Outage_Start_Earliest_Date, @Outage_Start_Earliest_Time, @psps, @Restore_Earliest_Date, @Restore_Earliest_Time, @Restore_Latest_Date, @Restore_Latest_Time, @Conditions
 SET @psps = AttributeValue('psps') 
@@ -22,12 +22,12 @@ SET @Restore_Earliest_Time = lookup('PSPS_Zone_time','Restore_Earliest_Time','z
 SET @Restore_Latest_Date = lookup('PSPS_Zone_time','Restore_Latest_Date','zone',@psps) 
 SET @Restore_Latest_Time = lookup('PSPS_Zone_time','Restore_Latest_Time','zone',@psps) 
 ]%%
-...
+~~~
 
 (use dynamic placement in email body)
 
-...
+~~~
 %%=Format(@Outage_Start_Earliest_Date,"MMM d")=%%
-...
+~~~
 
 That's it.
