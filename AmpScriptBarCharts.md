@@ -6,7 +6,7 @@ sold, most popular drinks, etc.)
 
 At the top of the email template (and, add this as a code snipppet within SFMC):
 
-...
+~~~
 %%[ 
 
 VAR @Total_Previous_Months_Bill_TOD, @Total_Basic_Cost_of_Service, @On_Peak_kWh, @On_Peak_Charges, @Mid_Peak_kWh, @Mid_Peak_Charges, @Off_Peak_kWh, @Off_Peak_Charges, @Delta_TOD_vs_Basic_Cost_of_Service, @Total_Savings_for_TOD, @Percent_of_Savings_for_TOD, @Basic_Service_Savings, @Percentage_of_Basic_Service_Savings, @Monthly_Percentage_of_On_Peak_Usage, @Month_to_Month_Savings, @Last_Month_Percentage_of_On_Peak_Usage, @totalkwh, @midoffpeakkwh, @onpeakpctlast, @actualwidth1, @actualwidth2
@@ -32,7 +32,7 @@ SET @midoffpeakkwh = add(@Mid_Peak_kWh, @Off_Peak_kWh)
   SET @actualwidth2 = multiply(divide(@midoffpeakkwh, @totalkwh),100)
  
 ]%%
-...
+~~~
 
 Yes, this could have been written cleaner and pre-calculated with an automation process upon data file
 import into SFMC.
