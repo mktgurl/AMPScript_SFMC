@@ -21,15 +21,15 @@ SET @Last_Month_Percentage_of_On_Peak_Usage = AttributeValue('Last Month Percent
 
 
 SET @midoffpeakkwh = add(@Mid_Peak_kWh, @Off_Peak_kWh) 
-  SET @midoffpeakpct = subtract(1,@Monthly_Percentage_of_On_Peak_Usage)
-  SET @onpeakpctlast = @Last_Month_Percentage_of_On_Peak_Usage
-  SET @totalkwh = add(@On_Peak_kWh, @midoffpeakkwh)
+SET @midoffpeakpct = subtract(1,@Monthly_Percentage_of_On_Peak_Usage)
+SET @onpeakpctlast = @Last_Month_Percentage_of_On_Peak_Usage
+SET @totalkwh = add(@On_Peak_kWh, @midoffpeakkwh)
  
 /* On Peak Pct bar chart */
-  SET @actualwidth1 = multiply(divide(@On_Peak_kWh, @totalkwh),100) 
+SET @actualwidth1 = multiply(divide(@On_Peak_kWh, @totalkwh),100) 
 
 /* Mid and Off Peak pct bar chart */
-  SET @actualwidth2 = multiply(divide(@midoffpeakkwh, @totalkwh),100)
+SET @actualwidth2 = multiply(divide(@midoffpeakkwh, @totalkwh),100)
  
 ]%%
 ~~~
