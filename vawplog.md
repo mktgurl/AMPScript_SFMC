@@ -4,13 +4,13 @@ This set of fields is common to all email templates using the script:
 
 * Email
 * vawp
-* SubscriberKey
+* SubscriberKey (this comes from the source data etension)
 * EmailsentDate
+* EmailTemplateName
 
 This set of fields is unique to the company and to the program:
 
-* service_address_id
-* EmailTemplateName (this is hard coded into the AMPScript)
+* service_address_id (dynamic content from source data extension)
 * Program (also hard coded into the AMPScript)
 
 In total, seven (7) fields are captured to a data extension.
