@@ -139,18 +139,18 @@ SET @contentBlockID = 1367180 /* Content Builder PTR Event Generic Day Of Header
 
 In the email body, the AMPScript is formatted like this:
 
-> **Event**/
-> %%=v(@formattedDate)=%%\
-> %%=v(@timeRange)=%%
+> **Event**
 > 
-> %%[IF @scheduledRowCount > 0 THEN]%%
+> %%=v(@formattedDate)=%% %%=v(@timeRange)=%%  
 > 
-> **Upcoming Events**
+> %%[IF @scheduledRowCount > 0 THEN]%%  
+> 
+> **Upcoming Events**  
 >
-> %%=v(@scheduledList)=%%
+> %%=v(@scheduledList)=%%  
 > %%[ENDIF]%%
 
-What is displayed to the customer is this:
+What is displayed to the customer is this:  
 
 > **Event**
 > 
