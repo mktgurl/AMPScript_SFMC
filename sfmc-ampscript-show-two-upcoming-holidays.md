@@ -139,7 +139,7 @@ FOR @i = 1 TO RowCount(@holidayRows) DO
         SET @holi_date = DateParse(@dateStr)
 
         /* only future holidays (after today) */
-        IF @holi_date > @today THEN
+        IF @holi_date >= @today THEN
           /* pick earliest two */
           IF Empty(@next1Date) THEN
             SET @next1Date = @holi_date
