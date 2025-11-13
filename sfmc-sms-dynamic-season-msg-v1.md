@@ -8,10 +8,10 @@ Journey flow looks like this:
 
 [data extension data source] --> Primary Language -->
 
-ENG --> OptInStatus Null --> SMS Welcome ENG  
+ENG --> OptInStatus Null --> SMS Welcome ENG + Season Start ENG  
 ENG --> OptInStatus Not Null --> SMS Season Start ENG  
                                                           
-SPN --> OptInStatus Null     --> SMS Welcome SPN  
+SPN --> OptInStatus Null     --> SMS Welcome SPN + Season Start SPN  
 SPN --> OptInStatus Not Null --> SMS Season Start SPN  
 
 **Welcome + Season Start ENG**  
