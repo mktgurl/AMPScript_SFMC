@@ -1,6 +1,6 @@
 --- 2025-10-30, After much struggle with floating holidays in general. The logic for Memorial Day, Labor Day, and Thanksgiving  
 --- are variations of a similar format for AMPScript. This AMPScript is for calculating Memorial Day, the last Monday in May. 
---- In this example, the AMPScript counts backwards from June 1 to find the preceding Thursday.
+--- In this example, the AMPScript counts backwards from June 1 to find the preceding Monday.
 
 ~~~
 %%[
