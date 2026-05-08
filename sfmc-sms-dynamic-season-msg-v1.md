@@ -45,14 +45,14 @@ PGE: La temporada de verano de Peak Time Rebates empieza el 6/1. Ingrese a portl
 
 As you can see, there are different ContentBlockID for ENG and SPN, that is because the season name is different.  
 
-**ContentBlockID = 1383709**  
+**ContentBlockID = #######**  
 ~~~
 %%[VAR @currentDate, @month, @day, @season, @seasonDate
 SET @currentDate = Now()
 SET @month = FormatDate(@currentDate, "M") IF (@month > 9 and @month < 3) THEN SET @season = "winter" SET @seasonDate = "11/1" ELSE SET @season = "summer" SET @seasonDate = "6/1" ENDIF]%%
 ~~~
 
-**ContentBlockID = 1383775**  
+**ContentBlockID = #######**  
 ~~~
 %%[VAR @currentDate, @month, @day, @season, @seasonDate
 SET @currentDate = Now()
