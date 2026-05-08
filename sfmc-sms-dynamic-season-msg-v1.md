@@ -16,7 +16,7 @@ SPN --> OptInStatus Not Null --> SMS Season Start SPN
 
 **Welcome + Season Start ENG**  
 ~~~
-%%[var @contentBlockID set @contentBlockID = 1383709]%%%%=ContentBlockByID(@contentBlockID)=%%PGE: Welcome to Peak Time Rebates texts! Approx. 6-10 msgs/month Nov-Feb & Jun-Sept. Reply STOP to stop and HELP for help. Msg & Data Rates May Apply.
+%%[var @contentBlockID set @contentBlockID = 1383709]%%%%=ContentBlockByID(@contentBlockID)=%%PGE: Welcome to Peak Time Rebates texts! Approx. 6-10 msgs/month Nov-Feb & Jun-Sept. Reply STOP to stop and HELP for help. Msg & Data Rates May Apply.  
 
 Peak Time Rebates %%=v(@season)=%% season begins %%=v(@seasonDate)=%%. Visit portlandgeneral.com/ptrshift to help keep energy reliable and save.
 ~~~
@@ -28,7 +28,7 @@ Peak Time Rebates %%=v(@season)=%% season begins %%=v(@seasonDate)=%%. Visit por
 
 **Welcome + Season Start SPN**  
 ~~~
-%%[var @contentBlockID set @contentBlockID = 1383775]%%%%=ContentBlockByID(@contentBlockID)=%%PGE: ¡Bienvenido a los textos de Peak Time Rebates! 6 a 10 mensajes/mes (nov. a feb./jun. a sep). Responda STOP (cancelar) y HELP (ayuda). Puede tener costo.
+%%[var @contentBlockID set @contentBlockID = 1383775]%%%%=ContentBlockByID(@contentBlockID)=%%PGE: ¡Bienvenido a los textos de Peak Time Rebates! 6 a 10 mensajes/mes (nov. a feb./jun. a sep). Responda STOP (cancelar) y HELP (ayuda). Puede tener costo.  
 
 La temporada de %%=v(@season)=%% de Peak Time Rebates empieza el %%=v(@seasonDate)=%%. Ingrese a portlandgeneral.com/ptrcambio.
 ~~~
