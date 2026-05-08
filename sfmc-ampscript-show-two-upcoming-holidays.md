@@ -199,4 +199,9 @@ ENDIF
 This outputs:
 
 * Thursday, Thanksgiving (11/27)  
-* Thursday, Christmas (12/25)  
+* Thursday, Christmas (12/25)
+
+For holiday dates that occur on a weekend, this will output:
+
+* Monday, Memorial Day (5/25)
+* Friday (Observed), Independence Day (7/4)
