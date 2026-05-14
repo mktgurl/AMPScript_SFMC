@@ -1,4 +1,7 @@
 Posted: 2025-05-07  
+Updated: 2025-11-01  
+
+The Event_Dates table was updated so that "ExtremeCold" and "HighHeat" now have the keyword of "Extreme" and its accompanying AMPScript reflects this.  
 
 The evolution of this AMPScript came about from a need to shift from manual SMS template updating to a less manual and more automated template. In previous seasons for flex programs (get customers to use less electricity), we created a number of AM and PM messages for winter and summer messaging. When the program manager called a Flex event where the time range of the event varied from 4-7pm, 5-8pm, 7-10am or 8-11am, these changes had to be manually made to update the time range in each channel type notification.
 
