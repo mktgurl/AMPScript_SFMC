@@ -1,5 +1,7 @@
 Created this process in December 2021 and have finally gotten around to writing up how it works. A stakeholder needed to capture transactional dynamic content that was used on an email message sent to customers. This method allows capture of the "view as a web page" (vawp) link to be upserted into a standalone data extension. Links stay active according to what your SFMC account settings are. For this company, it's 730 days or 2 years from the time a link is generated.
 
+The AMPScript was updated in 2025-09-17 to include all the fields used by AMPScript to display personalized content to a customer to store all the dynamic values. The source data extension is overwritten daily and runs on an automation process. The extended AMPScript is not shown here because it is proprietary.
+
 This set of fields is common to all email templates using the script:
 
 * Email
